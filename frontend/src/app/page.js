@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Card from "./components/Card";
 import Newsletter from "./components/Newsletter";
-import Topic from "./components/Topic";
+
 import Trending from "./components/Trending";
 import Footer from "./components/Footer";
 
@@ -49,7 +49,7 @@ export default function Home() {
     </div>
 
     <Newsletter imageUrl="newsletter.jpg" />
-    <Topic/>
+ 
     <Trending />
     <Footer/>
     </div>
